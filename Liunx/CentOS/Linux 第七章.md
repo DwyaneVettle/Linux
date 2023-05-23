@@ -20,11 +20,11 @@
 
   需要注意的是：主分区的数目最多只有4个因此主分区和扩展分区的序号就限制为1-4之间而逻辑分区的序号从5开始。
 
-  ![image-20211208221049303](Linux 第七章.assets/image-20211208221049303.png)
+  ![image-20211208221049303](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655744.png)
 
   ​	另外，对于所有使用USB接口的移动存储设备，都一律使用/dev/sdX的设备文件，**光驱(光盘)的设备文件则一般默认为/dev/cdrom。**
 
-  ![image-20211208221951011](Linux 第七章.assets/image-20211208221951011.png)
+  ![image-20211208221951011](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655745.png)
 
 ### 1.2.添加新的硬盘
 
@@ -32,21 +32,21 @@
 
 - 设置中点击添加，选择硬盘点击下一步，然后选择硬盘接口类型SCSI;
 
-  <img src="Linux 第七章.assets/image-20211208214757503.png" alt="image-20211208214757503" style="zoom:50%;" />
+  <img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655746.png" alt="image-20211208214757503" style="zoom:50%;" />
 
 - 创建一个新的虚拟磁盘；
 
-  <img src="Linux 第七章.assets/image-20211208214906289.png" alt="image-20211208214906289" style="zoom:50%;" />
+  <img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655747.png" alt="image-20211208214906289" style="zoom:50%;" />
 
 - 磁盘大小选择默认20G,并将虚拟机磁盘存储为单个文件；
 
   
 
-<img src="Linux 第七章.assets/image-20211208215010519.png" alt="image-20211208215010519" style="zoom:50%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655748.png" alt="image-20211208215010519" style="zoom:50%;" />
 
 - 下一步点击完成，新的硬盘就添加成功。
 
-  <img src="Linux 第七章.assets/image-20211208215111286.png" alt="image-20211208215111286" style="zoom:50%;" />
+  <img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655749.png" alt="image-20211208215111286" style="zoom:50%;" />
 
 -  添加了新的磁盘，虚拟系统还没办法进行识别，所以需要重启系统
 
@@ -71,9 +71,9 @@ fdisk -l /dev/sda				# 查看sda的分区信息
 fdisk -l /dev/sdb				# 查看sdb的分区信息
 ```
 
-![image-20211208222505428](Linux 第七章.assets/image-20211208222505428.png)
+![image-20211208222505428](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655750.png)
 
-![image-20211208222700146](Linux 第七章.assets/image-20211208222700146.png)
+![image-20211208222700146](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655751.png)
 
 我们可以看到/dev/sdb没有进行分区，我们就对这块磁盘进行分区：
 
@@ -89,7 +89,7 @@ fdisk -l /dev/sdb				# 查看sdb的分区信息
   p						# 查看分区
   ```
 
-  <img src="Linux 第七章.assets/2021-12-08_223445.png" alt="2021-12-08_223445" style="zoom:80%;" />
+  <img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655752.png" alt="2021-12-08_223445" style="zoom:80%;" />
 
 - 再次创建扩展分区：
 
@@ -113,17 +113,17 @@ l
 p					# 查看信息
 ```
 
-<img src="Linux 第七章.assets/2021-12-08_224151.png" alt="2021-12-08_224151" style="zoom:80%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655753.png" alt="2021-12-08_224151" style="zoom:80%;" />
 
 - 最后输入w保存退出：
 
-![image-20211208224442501](Linux 第七章.assets/image-20211208224442501.png)
+![image-20211208224442501](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655754.png)
 
 ```shell 
 fdisk -l /dev/sdb					# 查看sdb的分区信息
 ```
 
-![image-20211208224537357](Linux 第七章.assets/image-20211208224537357.png)
+![image-20211208224537357](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655755.png)
 
 我们也可以通过如下命令查看分区是否生效：
 
@@ -143,7 +143,7 @@ d						# 默认是从后往前删
 q						# 不保存退出
 ```
 
-<img src="Linux 第七章.assets/image-20211208225206207.png" alt="image-20211208225206207" style="zoom: 67%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655756.png" alt="image-20211208225206207" style="zoom: 67%;" />
 
 ### 1.4.Linux的文件系统
 
@@ -157,7 +157,7 @@ q						# 不保存退出
 cat /etc/filesystems
 ```
 
-![image-20211212131447015](Linux 第七章.assets/image-20211212131447015.png)
+![image-20211212131447015](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655757.png)
 
 ​		另外，在Linux中还有一种文件系统叫swap，swap文件系统是专门给交换分区使用的。交换分区类似于windows系统中的虚拟内存，能够在一定程度上解决物理内存不足的问题。不同的是，在windows系统中采用的是pagefile.sys的系统文件作为虚拟内存使用，而在Linux	系统中则是采用了一个单独的分区作为虚拟内存，这个分区就被称之为交换分区。交换分区的大小一般设置为主物理分区的两倍，如主机物理内存大小为1GB，，交换分区大小设置为2GB则可。由于现在的服务器普遍配置的是大容量的内存，因而对于内存容量在8GB以上的服务器，交换分区的大小统一的设置为8GB即可。在安装Linux系统时，如果选择系统自动对内存分区，那么系统会自动创建swap分区，并为其分配适当的磁盘空间，我们一般也无需再分配。
 
@@ -166,7 +166,7 @@ swapon -s									# 查看交换分区
 free -h										# 查看交换分区的大小
 ```
 
-![image-20211213202759471](Linux 第七章.assets/image-20211213202759471.png)
+![image-20211213202759471](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655758.png)
 
 
 
@@ -203,7 +203,7 @@ mkfs -t ext4 /dev/sdb5						# 将/dev/sdb5格式化为ext4的文件系统
 
 ​	例如把/dev/sdb5挂载到/tmp目录中，当用户在/tmp目录下执行数据存取操作时，Linux就知道要到/dev/sdb5上执行相关操作。
 
-<img src="Linux 第七章.assets/image-20211213205136060.png" alt="image-20211213205136060" style="zoom:50%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655759.png" alt="image-20211213205136060" style="zoom:50%;" />
 
 ​	挂载使用命令mount，命令格式为:
 
@@ -248,7 +248,7 @@ df
 
 ​	 修改/etc/fstab文件实现自动挂载。
 
-![](Linux 第七章.assets/2021-12-13_212209.png)
+![](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655760.png)
 
 ```sehll
 blkid /dev/sda1								# 查看sda1的UUID及文件系统类型

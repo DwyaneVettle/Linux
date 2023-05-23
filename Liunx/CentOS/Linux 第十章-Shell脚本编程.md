@@ -119,7 +119,7 @@ ll /bin/sh
 
    变量名只能包含数字、字母和下划线，而且不能以数字开头。在位变量命名时，变量名最好见名知义，命名机制遵循某种规则。另外，不允许使用程序的保留字为变量命名，如if、then、else等。
 
-![image-20211231202157907](Linux 第十章-Shell脚本编程.assets/image-20211231202157907.png)
+![image-20211231202157907](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171657579.png)
 
 ```shell
 day="Sunday"									# 定义变量day
@@ -286,7 +286,7 @@ echo $(())
 
 **条件测试语句格式如下：**
 
-![image-20220105195837888](Linux 第十章-Shell脚本编程.assets/image-20220105195837888.png)
+![image-20220105195837888](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171657580.png)
 
 **注意：方括号"[]"的左右两侧与条件表达式之间至少需要有一个空格进行分隔。**
 

@@ -305,7 +305,7 @@ mv /usr/bin/ls /tmp					# 将ls剪切到/tmp目录下
 mv /tmp/ls /usr/bin					# 将ls剪切回/usr/bin目录
 ```
 
-![image-20211105170221424](Linux 第五章.assets/image-20211105170221424.png)
+![image-20211105170221424](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655473.png)
 
 正常情况，如果我们想要执行某一命令需要添加这个命令的存放路径才能执行。那么我们为什么又可以直接执行这个命令呢？这是因为在系统中给我们配置了环境变量PATH，有了这个环境变量，我们就可以直接执行命令，而不需要指向命令的路径了。
 
@@ -314,7 +314,7 @@ echo $PATH							# 查看PATH的位置
 # /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin
 ```
 
-![image-20211105170621266](Linux 第五章.assets/image-20211105170621266.png)
+![image-20211105170621266](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655474.png)
 
 如果我们将PATH中的ls路径删除，再执行就找不到ls命令了：
 
@@ -346,7 +346,7 @@ type cd 									# 查看cd命令的类型
 type find									# 查看find命令的类型
 ```
 
-![image-20211105172408570](Linux 第五章.assets/image-20211105172408570.png)
+![image-20211105172408570](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655475.png)
 
 
 
@@ -508,7 +508,7 @@ man ls																		# 查看ls的帮助手册
 
   
 
-![image-20211106182736724](Linux 第五章.assets/image-20211106182736724.png)
+![image-20211106182736724](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655476.png)
 
 ### 5.2.标准输出重定向
 
@@ -671,7 +671,7 @@ vim sshd_config								# 编辑该文件
 - 插入模式：在插入模式下，我们就可以修改文件的内容。**输入字母"i"就可以进入插入模式**。
 - 末行模式：在命令模式下，按下":"键即可进入末行模式。该模式下可以保存文件，退出编辑器，以及对文件内容进行查找、替换等操作。处于末行模式时，编辑器的最后一行会出现":"提示符。
 
-![image-20211118215539270](Linux 第五章.assets/image-20211118215539270.png)
+![image-20211118215539270](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655477.png)
 
 > ### 6.2.命令模式的基本操作
 >
@@ -680,25 +680,25 @@ vim sshd_config								# 编辑该文件
 
 ​		在命令模式下可以使用键盘方向键来是实现光标的移动，也可以使用PageUp 和Page Down向上向下翻页，另外还有一些常用的快捷键：
 
-![image-20211118220322454](Linux 第五章.assets/image-20211118220322454.png)
+![image-20211118220322454](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655479.png)
 
 #### 	6.2.2.复制、粘贴、删除
 
 ​		快捷键如下：
 
-​	![image-20211118220610301](Linux 第五章.assets/image-20211118220610301.png)
+​	![image-20211118220610301](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655480.png)
 
 #### 	6.2.3.文件内容查找
 
 ​		文件内容查找快捷键如下：
 
-​	![image-20211118220844997](Linux 第五章.assets/image-20211118220844997.png)
+​	![image-20211118220844997](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655481.png)
 
 #### 	6.2.4.撤销编辑
 
 ​		撤销编辑快捷键如下：
 
-​	![image-20211118221123250](Linux 第五章.assets/image-20211118221123250.png)
+​	![image-20211118221123250](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655482.png)
 
 ### 6.3.插入模式下的基本操作
 
@@ -716,7 +716,7 @@ Esc可以返回至命令模式。
 
 #### 	6.4.1.保存退出vim编辑器
 
-![image-20211118221921606](Linux 第五章.assets/image-20211118221921606.png)
+![image-20211118221921606](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655483.png)
 
 #### 	6.4.2.文件内容的替换  
 
@@ -738,5 +738,5 @@ Esc可以返回至命令模式。
 
 ​	**替换举例：**
 
-![image-20211118222340414](Linux 第五章.assets/image-20211118222340414.png)
+![image-20211118222340414](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655484.png)
 

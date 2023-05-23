@@ -56,7 +56,7 @@ echo '123' | passwd --stdin ztr		# 更改用户ztr的密码--没有直接和用�
 
 ​		在Linux系统中定位文件或目录的位置时，则用"/"进行分隔，在整个树形结构中**使用“/”表示根目录**，所以根目录是所有文件的起点。在根目录下按不同的特点划分了众多子目录。因此，**Linux系统的目录结构是固定的，跟磁盘分区没有任何关系。**按典型FHS目录结构划分如下：
 
-​				![image-20211029120817651](Linux 第四章.assets/image-20211029120817651.png)
+​				![image-20211029120817651](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171654689.png)
 
 ​		Linux系统的目录结构由系统自动创建，每个目录都有其固定的用途。常见目录释义如下：
 
@@ -127,7 +127,7 @@ ls -a 								# 显示所有文件，包含隐藏文件
 ".."								# 表示当前目录的上一级目录--父目录
 ```
 
-<img src="Linux 第四章.assets/2021-10-29_150812.png" style="zoom:67%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171654690.png" style="zoom:67%;" />
 
 ```shell
 ls -d 								# 显示文件本身的属性--非其文件内部列表
@@ -317,7 +317,7 @@ cat -n /etc/ssh/sshd_config
 
 ​		
 
-<img src="Linux 第四章.assets/image-20211103200333764.png" alt="image-20211103200333764" style="zoom:50%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171654691.png" alt="image-20211103200333764" style="zoom:50%;" />
 
 ​		为了更好的解决行数比较多的文本文档查看问题，我们可以使用more命令进行分屏展示，当使用more命令查看的文本文件，我们可以分为几个部分查看，每个部分按空格键或者回车就可完成切换查看。
 
@@ -429,7 +429,7 @@ echo $SHELL
 echo $LANG
 ```
 
-<img src="Linux 第四章.assets/image-20211103211015782.png" alt="image-20211103211015782" style="zoom:50%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171654692.png" alt="image-20211103211015782" style="zoom:50%;" />
 
 
 

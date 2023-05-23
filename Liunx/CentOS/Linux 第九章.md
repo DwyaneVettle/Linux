@@ -38,7 +38,7 @@ yum clean all
 yum -y install dhcp
 ```
 
-![image-20211213220216316](Linux 第九章.assets/image-20211213220216316.png)
+![image-20211213220216316](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171656520.png)
 
 
 
@@ -50,7 +50,7 @@ yum -y install dhcp
 systemctl status dhcpd.service
 ```
 
-![image-20211214130506647](Linux 第九章.assets/image-20211214130506647.png)
+![image-20211214130506647](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171656521.png)
 
 ​	Active状态为inactive(dead)，表示服务未启动。
 
@@ -83,7 +83,7 @@ ls /usr/share/doc | grep dhcp					# 查看/usr/share/doc下dhcp的文件
 cp /usr/share/doc/dhcp-4.2.5/dhcpd.conf.example  /etc/dhcp/dhcpd.conf			# 复制文件到/etc/dhcp/
 ```
 
-![image-20211214211254773](Linux 第九章.assets/image-20211214211254773.png)
+![image-20211214211254773](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171656522.png)
 
 ​	**复制完成后，需要编辑这个配置文件的IP及子网掩码：**
 
@@ -91,7 +91,7 @@ cp /usr/share/doc/dhcp-4.2.5/dhcpd.conf.example  /etc/dhcp/dhcpd.conf			# 复制
 vim /etc/dhcp/dhcpd.conf
 ```
 
-![](Linux 第九章.assets/2021-12-14_212045.png)
+![](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171656523.png)
 
 ​	设置完成后我们就可以执行开启DHCP服务器的操作：
 
@@ -101,7 +101,7 @@ systemctl enable dhcpd.service					# 设置开机自启动
 systemctl status dhcpd.service					# 查看运行状态
 ```
 
-![image-20211214212549354](Linux 第九章.assets/image-20211214212549354.png)
+![image-20211214212549354](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171656524.png)
 
 ## 6.删除DHCP安装包
 
@@ -112,5 +112,5 @@ rpm -e dhcp-4.2.5						# 删除dhcp安装包
 rpm -qa | grep dhcp						# 查看安装包是否删除
 ```
 
-![image-20211214213335711](Linux 第九章.assets/image-20211214213335711.png)
+![image-20211214213335711](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171656525.png)
 

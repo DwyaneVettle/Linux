@@ -14,7 +14,7 @@
 
 **（3）**1971年，肯• 汤普森的同事丹尼斯• 里奇发明了C语言；1973年，UNIX系统的绝大部分源代码用C语言重写，这为提高UNIX系统的可移植性打下基础。
 
-![image-20211013205257119](Linux.assets/image-20211013205257119.png)
+![image-20211013205257119](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171650051.png)
 
 
 
@@ -37,19 +37,19 @@
 
 ​	Linux是一个开源软件，是源代码开放的Unix.。
 
-![image-20211013205856782](Linux.assets/image-20211013205856782.png)
+![image-20211013205856782](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171650052.png)
 
 ​	**Linux的内核可以参照官网：www.kernel.org**，目前最新的内核版本是5.16
 
 ​	**Linux的主要发行版本：**
 
-![image-20211013210157298](Linux.assets/image-20211013210157298.png)
+![image-20211013210157298](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171650054.png)
 
 
 
 ## 4.开源软件 free--> Open Source
 
-![image-20211013210300161](Linux.assets/image-20211013210300161.png)
+![image-20211013210300161](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171650055.png)
 
 **开源软件的特点：**
 
@@ -71,29 +71,29 @@ Linux的应用领域大致分为3中：
 
 https://www.netcraft.com/  --互联网市场以及在线安全方面的咨询服务
 
-![image-20211013211531031](Linux.assets/image-20211013211531031.png)
+![image-20211013211531031](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171650056.png)
 
-![image-20211013213259405](Linux.assets/image-20211013213259405.png)
+![image-20211013213259405](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171650057.png)
 
 www.qq.com
 
-![image-20211016193950714](Linux.assets/image-20211016193950714.png)
+![image-20211016193950714](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171650058.png)
 
 www.taobao.com
 
-![image-20211016194014908](Linux.assets/image-20211016194014908.png)
+![image-20211016194014908](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171650059.png)
 
 download.microsoft.com
 
-![image-20211016194105434](Linux.assets/image-20211016194105434.png)
+![image-20211016194105434](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171650060.png)
 
-![image-20211016194151635](Linux.assets/image-20211016194151635.png)
+![image-20211016194151635](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171650061.png)
 
 ### 5.2.Linux在嵌入式领域的应用
 
 - 手机、平板电脑
 
-![image-20211016194326214](Linux.assets/image-20211016194326214.png)
+![image-20211016194326214](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171650062.png)
 
 - 其他嵌入式应用
 
@@ -107,7 +107,7 @@ download.microsoft.com
 
 ### 5.3.Linux在电影娱乐业的应用
 
-![image-20211016194637325](Linux.assets/image-20211016194637325.png)
+![image-20211016194637325](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171650063.png)
 
 
 
@@ -115,7 +115,7 @@ download.microsoft.com
 
 - 使用命令行
 
-![image-20211016194929535](Linux.assets/image-20211016194929535.png)
+![image-20211016194929535](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171650064.png)
 
 - 解决问题的指挥：帮助、示例、文档、查找
 - 英文提示的困惑

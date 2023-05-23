@@ -23,7 +23,7 @@ yum install httpd -y
 httpd -v
 ```
 
-<img src="C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20221106201148988.png" alt="image-20221106201148988" style="zoom:50%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171658840.png" alt="image-20221106201148988" style="zoom:50%;" />
 
 - 配置Apache
 
@@ -36,7 +36,7 @@ vim /etc/httpd/conf/httpd.conf
 3.输入LoadModule rewrite_module modules/mod_rewrite.so。
 ```
 
-![image-20221106201448330](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20221106201448330.png)
+![image-20221106201448330](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171658841.png)
 
 - 将下列内容中的`AllowOverride None`更改为`AllowOverride All`。
 
@@ -52,7 +52,7 @@ vim /etc/httpd/conf/httpd.conf
 AllowOverride All
 ```
 
-![image-20221108165041357](Magento_CentOS安装.assets/image-20221108165041357.png)
+![image-20221108165041357](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171658842.png)
 
 按下`ESC`然后`:wq`保存退出。
 
@@ -166,7 +166,7 @@ systemctl enable mysqld
   All done!
   ```
 
-  ![image-20221107161620966](Magento_CentOS安装.assets/image-20221107161620966.png)
+  ![image-20221107161620966](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171658844.png)
 
 
 
@@ -204,7 +204,7 @@ systemctl enable mysqld
   php -v
   ```
 
-  ![image-20221107164850308](Magento_CentOS安装.assets/image-20221107164850308.png)
+  ![image-20221107164850308](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171658845.png)
 
 - 配置PHP
 
@@ -265,7 +265,7 @@ mysql> FLUSH PRIVILEGES;
 
 - 输入exit并回车以退出MySQL。
 
-![image-20221107170248097](Magento_CentOS安装.assets/image-20221107170248097.png)
+![image-20221107170248097](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171658846.png)
 
 - **可选：**验证新建的Magento数据库和用户是否可用。具体步骤如下：
 
@@ -294,7 +294,7 @@ mysql> FLUSH PRIVILEGES;
   mysql> exit
   ```
 
-  ![image-20221107170401790](Magento_CentOS安装.assets/image-20221107170401790.png)
+  ![image-20221107170401790](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171658847.png)
 
 
 

@@ -8,7 +8,7 @@
 
 ​		Shell其实也是Linux中的一个程序，它将用户输入的命令解释成，系统内核能理解的语言，命令执行之后再将结果以用户可以理解的方式显示出来。
 
-<img src="Linux 第三章.assets/image-20211027182953050.png" alt="image-20211027182953050" style="zoom:67%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171654148.png" alt="image-20211027182953050" style="zoom:67%;" />
 
 ​		Linux中负责提供shell功能的软件有很多，如SH,Zsh,Csh.....，**在CentOS 7中默认使用的shell是Bash**。
 
@@ -19,7 +19,7 @@ cat /etc/shells
 echo $SHELL				// 查看当前系统所使用的是哪种shell
 ```
 
-![](Linux 第三章.assets/2021-10-27_185525.png)
+![](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171654149.png)
 
 ### 1.1.启动shell
 
@@ -47,11 +47,11 @@ tty
 
 1.点击Session创建会话：
 
-<img src="Linux 第三章.assets/2021-10-27_213651.png" style="zoom:67%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171654150.png" style="zoom:67%;" />
 
 2.点击SSH创建连接，在Remote Host中输入IP地址，并创建一个用户名，端口号采用默认端口号22：
 
-<img src="Linux 第三章.assets/2021-10-27_213855.png" style="zoom:67%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171654151.png" style="zoom:67%;" />
 
 
 

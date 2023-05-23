@@ -118,7 +118,7 @@ tar -tf etc.tar.bz2								# 不解压，直接查看内容
 
   源码安装的基本流程包括解包、配置、编译、安装这四个步骤来完成：
 
-  <img src="Linux 第八章.assets/image-20211221214153874.png" alt="image-20211221214153874" style="zoom:50%;" />
+  <img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171656874.png" alt="image-20211221214153874" style="zoom:50%;" />
 
 
 
@@ -132,7 +132,7 @@ tar -tf etc.tar.bz2								# 不解压，直接查看内容
 
 ​	使用RPM机制封装的软件包文件拥有约定俗称的命名格式，一般使用“软件名-软件版本-发布号。硬件平台类型.rpm”的文件形式命名：
 
-<img src="Linux 第八章.assets/image-20211221203410646.png" alt="image-20211221203410646" style="zoom: 67%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171656875.png" alt="image-20211221203410646" style="zoom: 67%;" />
 
 ​	软件包放在"/mnt/cdrom/Packages"下。
 
@@ -140,7 +140,7 @@ tar -tf etc.tar.bz2								# 不解压，直接查看内容
 ls /mnt/cdrom/Packages
 ```
 
-![image-20211221203726419](Linux 第八章.assets/image-20211221203726419.png)
+![image-20211221203726419](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171656876.png)
 
 
 
@@ -163,7 +163,7 @@ cd /mnt/cdrom/Packages							# 进入到rpm软件包存放目录
 rpm -ivh vsftpd-3.0.2-28.el7.x86_64.rpm			# 安装vsftpd程序
 ```
 
-![image-20211221204539461](Linux 第八章.assets/image-20211221204539461.png)
+![image-20211221204539461](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171656877.png)
 
 ```shell
 rpm -e vsftpd									# 卸载vsftpd
@@ -204,7 +204,7 @@ rpm -qi openssh									# 查看openshh软件包的信息。
 rpm -ql openssh									# 查询openssh在系统什么位置安装了程序文件
 ```
 
-<img src="Linux 第八章.assets/image-20211221212800424.png" alt="image-20211221212800424" style="zoom:50%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171656878.png" alt="image-20211221212800424" style="zoom:50%;" />
 
 #### 2.2.4.qc选项-查询软件包所安装的配置文件
 
@@ -215,7 +215,7 @@ yum install vsftpd								# 安装vsftpd
 rpm -qc vsftpd									# 查询vsftpd的配置文件
 ```
 
-<img src="Linux 第八章.assets/image-20211221213127458.png" alt="image-20211221213127458" style="zoom:50%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171656879.png" alt="image-20211221213127458" style="zoom:50%;" />
 
 #### 2.2.5.qf选项-查询某个文件所属的软件包
 
@@ -243,7 +243,7 @@ cat /etc/yum.repos.d/CentOS-Base.repo
 
 
 
-![image-20211216094506975](Linux 第八章.assets/image-20211216094506975.png)
+![image-20211216094506975](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171656880.png)
 
 ​	
 
@@ -268,7 +268,7 @@ ls /mnt/cdrom/
 ls /mnt/cdrom/Packages/  | wc -l
 ```
 
-​	![image-20211216101132484](Linux 第八章.assets/image-20211216101132484.png)
+​	![image-20211216101132484](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171656881.png)
 
 查看光驱的目录结构，所有的rpm软件包都存放在"/mnt/cdrom/Packages"目录中，但在设置yum源时，**不能将这个目录指定为yum源路径，只能将存放元数据文件的repodata目录所在的位置指定为yum源（即/mnt/cdrom）**。
 
@@ -306,7 +306,7 @@ yum repolist										# 检测Yum源仓库列表
   yum info vsftpd									# 查看vsftpd软件包的信息
   ```
 
-  ![image-20211221200948455](Linux 第八章.assets/image-20211221200948455.png)
+  ![image-20211221200948455](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171656882.png)
 
 - **yum install - 安装软件**
 
