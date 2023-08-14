@@ -78,7 +78,7 @@
 
 将Ubuntu的软件下载源更改为中国的服务器，提高下载速度。
 
-1.点击左下角菜单栏，点击”软件“：
+1.点击左下角菜单栏，点击”软件“： 
 
 <img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171657392.png" style="zoom:50%;" />
 
@@ -196,6 +196,14 @@ service sshd restart
 ## 7.初识登录常用命令-解决远程登录被拒绝的问题
 
 ```shell
+# 确定防火墙状态是否关闭
+systemctl status firewalld.service
+# 如未安装防火墙可输入以下命令安装
+apt install firewalld firewall-config
+# 禁用防火墙
+systemctl stop firewalld.service
+systemctl status firewalld.service
+
 sudo ps -e |grep ssh        #查看是否安装了SSH服务(如果显示为空则没安装)
 
 sudo apt-get update        #先更新下资源列表
