@@ -66,7 +66,7 @@ Linux提供了两种环境变量的文件：
 
 
 
-输入命令`vim  /etc/profile` 进行编辑），`vim`命令小科普：
+输入命令`vim  /etc/profile` 进行编辑，`vim`命令小科普：
 
 ```shell
 i：进入编辑
