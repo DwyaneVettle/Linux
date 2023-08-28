@@ -202,8 +202,6 @@ ls -ld /tmp/test/teacher
 drwx------. 3 teacher teacher 78 10月 29 13:33 /home/teacher/
 ```
 
-**在执行cp命令时，为了区分文件和目录，建议最好在目录后面加上"/"**
-
 
 
 #### 2.4.7.mv命令--移动文件或目录
