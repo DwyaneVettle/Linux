@@ -298,7 +298,7 @@ fsck 分区名
 
 ​	修改/etc/fstab文件实现自动挂载。
 
-<img src="C:/Users/HP/AppData/Roaming/Typora/typora-user-images/image-20230828145521498.png" alt="image-20230828145521498" style="zoom:50%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202308301024840.png" alt="image-20230828145521498" style="zoom:50%;" />
 
 ```shell
 blkid /dev/sdb								# 查看sdb的UUID及文件系统类型
