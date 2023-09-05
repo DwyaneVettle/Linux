@@ -406,7 +406,7 @@ alias
 ​	我们可以发现有一个命令是**ll命令**，执行ll命令我们可以看出它就相当于”**ls -l**“的操作。
 
 ```shell
-alias cpw='cat /etc/passwd'					# 设置别名cpd，其功能是查看/etc/passwd的内容
+alias cpw='cat /etc/passwd'					# 设置别名cpw，其功能是查看/etc/passwd的内容
 # 等号左右两侧不能有空格，等号右边需由引号包裹
 ```
 
@@ -673,8 +673,7 @@ vim sshd_config								# 编辑该文件
 
 ![image-20211118215539270](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171655477.png)
 
-> ### 6.2.命令模式的基本操作
->
+### 6.2.命令模式的基本操作
 
 #### 	6.2.1.光标移动
 
