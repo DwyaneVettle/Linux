@@ -10,7 +10,7 @@
 
 ​	LibreOffice的安装实在系统级完成的，这意味着所有用户都可以访问它。在GNOME桌面继承了LibreOffice Writer（类似Word）、LibreOffice Impress（类似PowerPoint）、LibreOffice Cale（类似Excel）、LibreOffice Draw（类似绘图软件）。在系统中搜索LibreOffice将显示系统内置的这4个组件。
 
-<img src="C:/Users/HP/AppData/Roaming/Typora/typora-user-images/image-20230905094026205.png" alt="image-20230905094026205" style="zoom:50%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202309111625401.png" alt="image-20230905094026205" style="zoom:50%;" />
 
 
 
@@ -28,7 +28,7 @@
 - **插入模式**：在插入模式下，我们就可以修改文件的内容。**输入字母"i"就可以进入插入模式**。
 - **末行模式**：在命令模式下，按下":"键即可进入末行模式。该模式下可以保存文件，退出编辑器，以及对文件内容进行查找、替换等操作。处于末行模式时，编辑器的最后一行会出现":"提示符。
 
-<img src="C:/Users/HP/AppData/Roaming/Typora/typora-user-images/image-20230905094934019.png" alt="image-20230905094934019" style="zoom:50%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202309111625402.png" alt="image-20230905094934019" style="zoom:50%;" />
 
 ### 2.1.命令模式的基本操作
 
@@ -95,9 +95,9 @@
 
 ​	启动Gedit有两种方式，一种是在系统搜索中直接搜索Gedit打开；还有一种是直接通过Shell命令`gedit`打开。
 
-<img src="C:/Users/HP/AppData/Roaming/Typora/typora-user-images/image-20230905100341053.png" alt="image-20230905100341053" style="zoom:50%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202309111625403.png" alt="image-20230905100341053" style="zoom:50%;" />
 
-<img src="C:/Users/HP/AppData/Roaming/Typora/typora-user-images/image-20230905100423935.png" alt="image-20230905100423935" style="zoom:50%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202309111625404.png" alt="image-20230905100423935" style="zoom:50%;" />
 
 
 
@@ -107,7 +107,7 @@
 
 ​	Shotwell的启动也有两种方式：一种是系统搜索；另一种通过Shell命令`shotwell`打开。
 
-<img src="C:/Users/HP/AppData/Roaming/Typora/typora-user-images/image-20230905101020254.png" alt="image-20230905101020254" style="zoom:50%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202309111625405.png" alt="image-20230905101020254" style="zoom:50%;" />
 
-<img src="C:/Users/HP/AppData/Roaming/Typora/typora-user-images/image-20230905101235991.png" alt="image-20230905101235991" style="zoom:50%;" />
+<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202309111625406.png" alt="image-20230905101235991" style="zoom:50%;" />
 
