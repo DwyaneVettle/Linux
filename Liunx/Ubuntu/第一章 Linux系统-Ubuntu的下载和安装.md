@@ -246,12 +246,10 @@ service NetworkManager restart
 
 ```shell
 # 确定防火墙状态是否关闭
-systemctl status firewalld.service
-# 如未安装防火墙可输入以下命令安装
-apt install firewalld firewall-config
+service status ufw
 # 禁用防火墙
-systemctl stop firewalld.service
-systemctl status firewalld.service
+service stop ufw
+service disable ufw
 
 sudo ps -e |grep ssh        #查看是否安装了SSH服务(如果显示为空则没安装)
 
@@ -278,6 +276,6 @@ sudo vi /etc/ssh/sshd_config
 <img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171657400.png" alt="image-20220923230426216" style="zoom:50%;" />
 
 ```shell
-systemctl  restart sshd   # 重启  
+service sshd restart  # 重启  
 ```
 
