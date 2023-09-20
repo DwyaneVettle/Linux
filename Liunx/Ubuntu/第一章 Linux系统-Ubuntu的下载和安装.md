@@ -185,6 +185,55 @@ service sshd restart
 
 
 
+**设置永久IP地址的方法：**
+
+1.备份网络配置文件：
+
+```shell
+cp /etc/netplan/01-network-manager-all.yaml /etc/netplan/01-network-manager-all.yaml.bak
+```
+
+2.编辑配置文件：
+
+原配置如下:
+
+```shell
+# Let NetworkManager manage all devices on this system
+network:
+  version: 2
+  renderer: NetworkManager
+```
+
+修改配置为：
+
+```shell
+network:
+    version: 2
+    ethernets:
+        ens33:
+            dhcp4: false
+            addresses: [192.168.18.128/24]
+            gateway4: 192.168.18.1
+            nameservers:
+                    addresses: [223.5.5.5,223.6.6.6]
+```
+
+3.按ESC->:wq保存文件后输入以下命令使文件生效：
+
+```shell
+sudo netplan apply
+```
+
+4.重启网络：
+
+```shell
+service NetworkManager restart
+```
+
+
+
+
+
 ## 6.关于安装界面太小的问题
 
 **注：ubuntu的安装页面太小，看不到下面的确认键，我们可以点击右上角的红×，然后在倒三角中点击设置，在显示器功能栏选择分辨率设置成1024x768，然后再点击左上角的红色按钮安装**
