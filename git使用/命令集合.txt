@@ -1,0 +1,24 @@
+1.设置用户名和邮箱：
+git config --global user.name 'xxx'
+git config --global user.email 'xx@xx.com'
+
+初始化仓库
+git init
+
+2.推送到暂存区
+git add .
+
+3.提交到本地库
+git commit -m 'xxxx'
+
+
+4.给远程库起别名
+git remote add origin 远程仓库地址
+
+5.推送到远程库
+git push -u origin master
+(第二次推送时只需要执行git push即可)
+
+
+6.拉取远程仓库代码
+git pull
