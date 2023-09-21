@@ -183,7 +183,12 @@ vim /etc/ssh/sshd_config
 service sshd restart
 ```
 
+如以上操作还是显示连接超时，可以尝试以下方法：
 
+1. 重启宿主机的VMnet8的网卡；
+2. 使用命令`service ufw stop/disable`关闭/禁用防火墙；
+3. 编辑`/etc/ssh/sshd_config`文件，将端口修改为60022，并再次使用Mobaxterm连接（端口也改为60022）；
+4. 直接在虚拟机的编辑--虚拟网络编辑器中还原默认配置。
 
 **设置永久IP地址的方法：**
 
