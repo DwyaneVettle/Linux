@@ -174,6 +174,8 @@ sudo apt-get install vim
 
 ```shell
 vim /etc/ssh/sshd_config
+或
+gedit /etc/ssh/sshd_config
 在#PermitRootLogin prohibit-password下面新增PermitRootLogin yes
 ```
 
@@ -189,6 +191,8 @@ service sshd restart
 2. 使用命令`service ufw stop/disable`关闭/禁用防火墙；
 3. 编辑`/etc/ssh/sshd_config`文件，将端口修改为60022，并再次使用Mobaxterm连接（端口也改为60022）；
 4. 直接在虚拟机的编辑--虚拟网络编辑器中还原默认配置。
+5. 看看虚拟机左上角的网络是否连接。
+6. 如显示网络连接未托管，可参考https://blog.csdn.net/forever_008/article/details/114011292?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169578481916800186537516%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169578481916800186537516&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-114011292-null-null.142^v94^insert_down28v1&utm_term=ubuntu20.04%E7%BD%91%E7%BB%9C%E6%9C%89%E7%BA%BF%E6%9C%AA%E6%89%98%E7%AE%A1&spm=1018.2226.3001.4187
 
 **设置永久IP地址的方法：**
 
