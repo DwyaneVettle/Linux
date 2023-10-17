@@ -37,13 +37,13 @@
 
 ​	Linux是一个开源软件，是源代码开放的Unix.。
 
-![image-20211013205856782](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171650052.png)
+![image-20211013205856782](C:/Users/HP/Desktop/202302171650052.png)
 
 ​	**Linux的内核可以参照官网：www.kernel.org**，目前最新的内核版本是5.16
 
 ​	**Linux的主要发行版本：**
 
-![image-20211013210157298](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171650054.png)
+![image-20211013210157298](C:/Users/HP/Desktop/202302171650054.png)
 
 
 
@@ -73,7 +73,7 @@ https://www.netcraft.com/  --互联网市场以及在线安全方面的咨询服
 
 ![image-20211013211531031](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171650056.png)
 
-![image-20211013213259405](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171650057.png)
+![image-20211013213259405](C:/Users/HP/Desktop/202302171650057.png)
 
 www.qq.com
 

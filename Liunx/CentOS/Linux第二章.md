@@ -10,7 +10,7 @@ VMWare是一个虚拟PC的软件，可以在现有的操作系统上虚拟出一
 
 VMWare官方网站：https://www.vmware.com/
 
-![image-20211016200439843](https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171652165.png)
+![image-20211016200439843](C:/Users/HP/Desktop/202302171652165.png)
 
 ### 2.VMWare的特点
 

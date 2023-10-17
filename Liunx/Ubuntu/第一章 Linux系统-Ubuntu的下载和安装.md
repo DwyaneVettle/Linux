@@ -12,19 +12,19 @@
 
 1.打开虚拟机，点击创建新的虚拟机：
 
-<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171657377.png" alt="image-20220422122549349" style="zoom:50%;" />
+<img src="C:/Users/HP/Desktop/202302171657377.png" alt="image-20220422122549349" style="zoom:50%;" />
 
 2.选择“典型”，然后点击“下一步”：
 
-<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171657378.png" alt="image-20220422122639669" style="zoom: 50%;" />
+<img src="C:/Users/HP/Desktop/202302171657378.png" alt="image-20220422122639669" style="zoom: 50%;" />
 
 3.选择“稍后安装操作系统”，然后点击“下一步”：
 
-<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171657379.png" alt="image-20220422122733098" style="zoom:50%;" />
+<img src="C:/Users/HP/Desktop/202302171657379.png" alt="image-20220422122733098" style="zoom:50%;" />
 
 4.选择操作系统位Linux，版本位Ubuntu 64,然后点击下一步：
 
-<img src="https://gitee.com/zou_tangrui/note-pic/raw/master/img/202302171657380.png" alt="image-20220422122820256" style="zoom:50%;" />
+<img src="C:/Users/HP/Desktop/202302171657380.png" alt="image-20220422122820256" style="zoom:50%;" />
 
 5.自定义虚拟机名称，选择安装虚拟机的路径，点击下一步：
 
